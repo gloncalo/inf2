@@ -1,0 +1,155 @@
+Clientes 
+CREATE TABLE Clientes (ClienteID INT PRIMARY KEY NOT NULL, Nome VARCHAR(15) NOT NULL, Apelido VARCHAR(15) NOT NULL, DataNascimento DATE NOT NULL, Email VARCHAR(40) NOT NULL, Contacto INT NOT NULL)
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20181082', 'Goncalo', 'Colaco', '1999-02-13', 'goncalo@gmail.com', '918721019');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241102', 'Ana', 'Silva', '1995-08-21', 'ana.silva@email.com', '911234567');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241203', 'Pedro', 'Santos', '1990-04-15', 'pedro.santos@email.com', '912345678');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241304', 'Mariana', 'Costa', '1987-12-30', 'mariana.costa@email.com', '913456789');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241405', 'Rui', 'Ferreira', '1983-06-25', 'rui.ferreira@email.com', '914567890');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241506', 'Sofia', 'Oliveira', '1989-02-10', 'sofia.oliveira@email.com', '915678901');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241607', 'Joao', 'Martins', '1996-10-05', 'joao.martins@email.com', '916789012');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241708', 'Carla', 'Rodrigues', '1992-03-20', 'carla.rodrigues@email.com', '917890123');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241809', 'Miguel', 'Lopes', '1998-09-14', 'miguel.lopes@email.com', '918901234');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20241910', 'Ines', 'Pereira', '1994-05-09', 'ines.pereira@email.com', '919012345');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242011', 'Rita', 'Gomes', '1990-01-24', 'rita.gomes@email.com', '911123456');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242112', 'Paulo', 'Almeida', '1985-07-19', 'paulo.almeida@email.com', '912234567');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242213', 'Teresa', 'Marques', '1988-11-03', 'teresa.marques@email.com', '913345678');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242314', 'Andre', 'Sousa', '1986-04-18', 'andre.sousa@email.com', '914456789');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242415', 'Catarina', 'Ribeiro', '1993-10-13', 'catarina.ribeiro@email.com', '915567890');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242516', 'Hugo', 'Fernandes', '1999-03-28', 'hugo.fernandes@email.com', '916678901');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242617', 'Ana', 'Silva', '1991-09-22', 'ana.silva@email.com', '917789012');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242718', 'Diogo', 'Santos', '1997-05-17', 'diogo.santos@email.com', '918890123');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242819', 'Ines', 'Costa', '1995-01-01', 'ines.costa@email.com', '919901234');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20242920', 'Rui', 'Ferreira', '1986-06-26', 'rui.ferreira@email.com', '910012345');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243021', 'Sofia', 'Oliveira', '1988-12-21', 'sofia.oliveira@email.com', '911123456');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243122', 'Joao', 'Martins', '1994-07-16', 'joao.martins@email.com', '912234567');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243223', 'Carla', 'Rodrigues', '1990-03-01', 'carla.rodrigues@email.com', '913345678');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243324', 'Miguel', 'Lopes', '1998-08-26', 'miguel.lopes@email.com', '914456789');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243425', 'Ines', 'Pereira', '1996-02-20', 'ines.pereira@email.com', '915567890');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243526', 'Rita', 'Gomes', '1987-09-15', 'rita.gomes@email.com', '916678901');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243627', 'Paulo', 'Almeida', '1995-05-10', 'paulo.almeida@email.com', '917789012');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243728', 'Teresa', 'Marques', '1989-12-04', 'teresa.marques@email.com', '918890123');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243829', 'Andre', 'Sousa', '1993-06-29', 'andre.sousa@email.com', '919901234');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20243930', 'Catarina', 'Ribeiro', '1991-12-24', 'catarina.ribeiro@email.com', '911012345');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244031', 'Hugo', 'Fernandes', '1997-07-19', 'hugo.fernandes@email.com', '912123456');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244132', 'Ana', 'Silva', '1992-01-13', 'ana.silva@email.com', '913234567');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244233', 'Diogo', 'Santos', '1998-08-08', 'diogo.santos@email.com', '914345678');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244334', 'Ines', 'Costa', '1996-03-04', 'ines.costa@email.com', '915456789');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244435', 'Rui', 'Ferreira', '1985-09-28', 'rui.ferreira@email.com', '916567890');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244536', 'Sofia', 'Oliveira', '1989-04-23', 'sofia.oliveira@email.com', '917678901');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244637', 'Joao', 'Martins', '1994-10-17', 'joao.martins@email.com', '918789012');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244738', 'Carla', 'Rodrigues', '1990-05-12', 'carla.rodrigues@email.com', '919890123');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244839', 'Miguel', 'Lopes', '1997-12-06', 'miguel.lopes@email.com', '910901234');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20244940', 'Ines', 'Pereira', '1995-06-01', 'ines.pereira@email.com', '911012345');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245041', 'Rita', 'Gomes', '1988-11-26', 'rita.gomes@email.com', '912123456');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245142', 'Paulo', 'Almeida', '1996-05-21', 'paulo.almeida@email.com', '913234567');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245243', 'Teresa', 'Marques', '1989-12-15', 'teresa.marques@email.com', '914345678');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245344', 'Andre', 'Sousa', '1993-07-10', 'andre.sousa@email.com', '915456789');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245445', 'Catarina', 'Ribeiro', '1991-01-04', 'catarina.ribeiro@email.com', '916567890');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245546', 'Hugo', 'Fernandes', '1997-06-29', 'hugo.fernandes@email.com', '917678901');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245647', 'Ana', 'Silva', '1992-12-23', 'ana.silva@email.com', '918789012');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245748', 'Diogo', 'Santos', '1998-06-18', 'diogo.santos@email.com', '919890123');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245849', 'Ines', 'Costa', '1996-11-12', 'ines.costa@email.com', '910901234');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20245950', 'Rui', 'Ferreira', '1985-05-08', 'rui.ferreira@email.com', '911012345');
+
+INSERT INTO Clientes (ClienteID, Nome, Apelido, DataNascimento, Email, Contacto) VALUES 
+('20246051', 'Sofia', 'Oliveira', '1980-10-03', 'sofia.oliveira@email.com', '912123456');
