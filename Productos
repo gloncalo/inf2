@@ -1,1 +1,68 @@
+CREATE TABLE Productos (ProductoID VARCHAR(20) PRIMARY KEY NOT NULL, Nome VARCHAR(30) NOT NULL, Categoria VARCHAR(20) NOT NULL, Subcategoria VARCHAR(20) NOT NULL, Cor CHAR(15) NOT NULL, Custo INT NOT NULL, PrecoVenda INT NOT NULL, Fornecedor VARCHAR(30) NOT NULL) 
+
+#Ciclismo
+INSERT INTO Productos VALUES ('AB15002', 'Bicicleta MTX 150 Azul', 'Ciclismo', 'Bicicletas', 'Azul', 200, 550, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15003', 'Bicicleta MTX 150 Vermelha', 'Ciclismo', 'Bicicletas', 'Vermelho', 200, 550, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15004', 'Bicicleta MTX 150 Amarela', 'Ciclismo', 'Bicicletas', 'Amarelo', 200, 550, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15005', 'Bicicleta MTX 150 Verde', 'Ciclismo', 'Bicicletas', 'Verde', 200, 550, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15006', 'Bicicleta MTX 300 Azul', 'Ciclismo', 'Bicicletas', 'Azul', 350, 800, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15007', 'Bicicleta MTX 300 Preta', 'Ciclismo', 'Bicicletas', 'Preto', 350, 800, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15008', 'Bicicleta MTX 300 Branca', 'Ciclismo', 'Bicicletas', 'Branco', 350, 800, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB15009', 'Bicicleta MTX 300 Cinza', 'Ciclismo', 'Bicicletas', 'Cinza', 350, 800, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB17981', 'Bicicleta DKR 200 Preta', 'Ciclismo', 'Biciletas', 'Preto', 500, 1000, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB17981', 'Bicicleta DKR 200 Azul', 'Ciclismo', 'Biciletas', 'Azul', 500, 1000, 'PORTUCICL');
+INSERT INTO Productos VALUES ('AB17981', 'Bicicleta DKR 200 Vermelha', 'Ciclismo', 'Biciletas', 'Vermelho', 500, 1000, 'PORTUCICL');
+
+#Futebol
+INSERT INTO Productos VALUES ('FB12000', 'Chuteiras Profissionais Pretas', 'Futebol', 'Calcado', 'Preto', 80, 150, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12001', 'Chuteiras Profissionais Azuis', 'Futebol', 'Calcado', 'Azul', 80, 150, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12003', 'Bola de Futebol Oficial EURO2024', 'Futebol', 'Bolas', 'Branco', 20, 45, 'FUTBALLSUPPLY');
+INSERT INTO Productos VALUES ('FB12004', 'Caneleiras de Futebol Vermelhas', 'Futebol', 'Protecao', 'Vermelho', 30, 50, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12006', 'Rede de Futebol Oficial', 'Futebol', 'Redes', 'Branco', 100, 200, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12008', 'Luvas de Guarda Redes Profissionais', 'Futebol', 'Luvas', 'Verde', 60, 120, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12009', 'Caneleiras de Futebol Amarelas', 'Futebol', 'Protecao', 'Amarelo', 30, 50, 'FUTLAND');
+INSERT INTO Productos VALUES ('FB12011', 'Cone de Treino de Futebol Laranja', 'Futebol', 'Acessorios', 'Laranja', 10, 20, 'TRAININGTOOLS');
+
+#Camping
+INSERT INTO Productos VALUES ('CP23001', 'Tenda para 4 Pessoas', 'Camping', 'Tendas', 'Verde', 150, 300, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23002', 'Saco Cama para Temperaturas Baixas', 'Camping', 'Sacos Cama', 'Azul', 80, 150, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23003', 'Fogão Portatil a Gás', 'Camping', 'Fogoes', 'Prateado', 70, 120, 'CAMPKITCHEN');
+INSERT INTO Productos VALUES ('CP23004', 'Lanterna Recarregavel', 'Camping', 'Lanternas', 'Preto', 30, 60, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23005', 'Colchão Insuflavel de Casal', 'Camping', 'Colchoes', 'Azul', 50, 100, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23006', 'Kit de Talheres para Camping', 'Camping', 'Acessorios', 'Prateado', 20, 40, 'CAMPKITCHEN');
+INSERT INTO Productos VALUES ('CP23007', 'Kit de Primeiros Socorros', 'Camping', 'Acessorios', 'Vermelho', 25, 50, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23008', 'Mochila Termica para Picnic', 'Camping', 'Acessorios', 'Verde', 40, 80, 'CAMPKITCHEN');
+INSERT INTO Productos VALUES ('CP23009', 'Cadeira de Acampamento Dobravel', 'Camping', 'Cadeiras', 'Azul', 25, 50, 'CAMPWORLD');
+INSERT INTO Productos VALUES ('CP23010', 'Garrafa Termica de Aço Inoxidavel', 'Camping', 'Acessorios', 'Prateado', 35, 70, 'CAMPKITCHEN');
+
+
+#Praia
+INSERT INTO Productos VALUES ('PB34001', 'Guarda-Sol Grande', 'Praia', 'Acessorios', 'Azul', 60, 120, 'SANDYFOOT');
+INSERT INTO Productos VALUES ('PB34002', 'Cadeira de Praia Dobravel', 'Praia', 'Cadeiras', 'Verde', 40, 80, 'SANDYFOOT');
+INSERT INTO Productos VALUES ('PB34003', 'Cooler Termico para Praia', 'Praia', 'Acessorios', 'Laranja', 50, 100, 'SANDYFOOT');
+INSERT INTO Productos VALUES ('PB34004', 'Toalha de Praia Extra Grande', 'Praia', 'Toalhas', 'Amarelo', 30, 60, 'SANDYFOOT');
+INSERT INTO Productos VALUES ('PB34005', 'Tenda de Praia Pop-Up', 'Praia', 'Barracas', 'Verde', 80, 160, 'SANDYFOOT');
+INSERT INTO Productos VALUES ('PB34006', 'Prancha de Bodyboard', 'Praia', 'Pranchas', 'Vermelho', 70, 140, 'WAVESURF');
+INSERT INTO Productos VALUES ('PB34007', 'Kit de Volei de Praia', 'Praia', 'Acessorios', 'Branco', 90, 180, 'BEACHSPORTS');
+INSERT INTO Productos VALUES ('PB34008', 'Oculos de Sol Polarizados', 'Praia', 'Oculos', 'Preto', 40, 80, 'SUNSHADES');
+INSERT INTO Productos VALUES ('PB34009', 'Frisbee para Praia', 'Praia', 'Acessorios', 'Azul', 10, 20, 'BEACHFUN');
+INSERT INTO Productos VALUES ('PB34010', 'Chinelo de Praia', 'Praia', 'Calcado', 'Branco', 20, 40, 'SANDYFOOT');
+
+#Tenis
+INSERT INTO Productos VALUES ('TN45001', 'Raquete de Tenis Profissional', 'Tenis', 'Raquetes', 'Azul', 100, 250, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45002', 'Rede de Tenis de Mesa Oficial', 'Tenis de Mesa', 'Redes', 'Branco', 30, 60, 'PADDLETABLE');
+INSERT INTO Productos VALUES ('TN45003', 'Bola de Tenis de Mesa Profissional', 'Tenis de Mesa', 'Bolas', 'Branco', 10, 20, 'PADDLETABLE');
+INSERT INTO Productos VALUES ('TN45004', 'Kit de Raquete de Tenis e Bola', 'Tenis', 'Kits', 'Vermelho', 80, 150, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45005', 'Rede de Tenis Oficial', 'Tenis', 'Redes', 'Verde', 70, 140, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45006', 'Bola de Tenis Oficial', 'Tenis', 'Bolas', 'Amarelo', 50, 100, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45007', 'Overgrip para Raquete de Tenis', 'Tenis', 'Acessorios', 'Preto', 5, 10, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45008', 'Estojo para Raquete de Tenis', 'Tenis', 'Acessorios', 'Azul', 20, 40, 'SPORTSUPPLY');
+INSERT INTO Productos VALUES ('TN45010', 'Corda de Reposicao para Raquete de Tenis', 'Tenis', 'Acessorios', 'Vermelho', 15, 30, 'SPORTSUPPLY');
+
+
+
+
+
+
+
 
