@@ -1,5 +1,9 @@
 
-CREATE TABLE Pagamento (OrderID FOREIGN KEY NOT NULL, MetodoPagamento CHAR(20), Estado CHAR(20))
+CREATE TABLE Pagamento (
+    OrderID PRIMARY KEY FOREIGN KEY REFERENCES Orders(OrderID) NOT NULL,
+    MetodoPagamento CHAR(20),
+    Estado CHAR(20))
+
 
 ('PDD1234', 'MBWay', 'Pago'),
 ('PDD1235', 'VISA', 'Pago'),
