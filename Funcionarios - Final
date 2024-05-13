@@ -1,0 +1,15 @@
+CREATE TABLE Funcionarios (IDFuncionario PRIMARY KEY NOT NULL,
+                           Nome VARCHAR(20) NOT NULL,
+                           Apelido VARCHAR(20) NOT NULL,
+                           DataNascimento DATE NOT NULL,
+                           Departamento CHAR(20) NOT NULL,
+                           Contacto INT NOT NULL)
+
+
+('1001', 'Joao', 'Silva', '1980-01-01', 'Gerente', '918237180')
+('1002', 'Joana', 'Silva', '1989-06-01', 'Vendas', '918245680')
+('1003', 'Antonia', 'Mendes', '1977-01-20', 'Logistica', '968237177')
+('1004', 'Jorge', 'Mendes', '1992-08-31', 'Logistica', '928246164')
+('1005', 'Filipa', 'Silva', '1997-11-17', 'ApoioCliente', '913717190')
+                           
+                  
