@@ -1,3 +1,7 @@
+CREATE TABLE Orders (OrderID PRIMARY KEY NOT NULL, ClienteID FOREIGN KEY NOT NULL, Data DATE NOT NULL, ProductoID FOREIGN KEY NOT NULL, Valor INT NOT NULL, Custo INT NOT NULL, Portes INT NOT NULL, Imposto DECIMAL NOT NULL)
+
+
+
 INSERT INTO Orders VALUES (OrderID, ClienteID, Data, ProductoID, Valor, Custo, Portes, Imposto)
 
 
