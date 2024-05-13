@@ -1,0 +1,43 @@
+#Orders
+CREATE TABLE Orders (
+    OrderID PRIMARY KEY NOT NULL,
+    ClienteID INT FOREIGN KEY REFERENCES Clientes(ClienteID) NOT NULL,
+    Data DATE NOT NULL,
+    ProductoID VARCHAR(20) FOREIGN KEY REFERENCES Productos(ProductoID) NOT NULL
+    Valor INT NOT NULL,
+    Custo INT NOT NULL,
+    Portes INT NOT NULL,
+    Imposto DECIMAL NOT NULL
+)
+
+#Pagamentos 
+CREATE TABLE Pagamento (
+    OrderID PRIMARY KEY FOREIGN KEY REFERENCES Orders(OrderID) NOT NULL,
+    MetodoPagamento CHAR(20),
+    Estado CHAR(20)
+)
+
+#Clientes 
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY NOT NULL,
+    Nome VARCHAR(15) NOT NULL,
+    Apelido VARCHAR(15) NOT NULL,
+    DataNascimento DATE NOT NULL,
+    Email VARCHAR(40) NOT NULL,
+    Cidade CHAR(20) NOT NULL,
+    Contacto INT NOT NULL
+)
+
+#Productos 
+
+CREATE TABLE Productos (
+    ProductoID VARCHAR(20) PRIMARY KEY NOT NULL,
+    Nome VARCHAR(30) NOT NULL,
+    Categoria VARCHAR(20) NOT NULL,
+    Subcategoria VARCHAR(20) NOT NULL,
+    Cor CHAR(15) NOT NULL,
+    Custo INT NOT NULL,
+    PrecoVenda INT NOT NULL,
+    Fornecedor VARCHAR(30) NOT NULL
+)
+
