@@ -41,3 +41,11 @@ CREATE TABLE Productos (
     Fornecedor VARCHAR(30) NOT NULL
 )
 
+#Funcionarios
+CREATE TABLE Funcionarios (IDFuncionario INT PRIMARY KEY NOT NULL,
+                           Nome VARCHAR(20) NOT NULL,
+                           Apelido VARCHAR(20) NOT NULL,
+                           DataNascimento DATE NOT NULL,
+                           Departamento CHAR(20) NOT NULL,
+                           Contacto INT NOT NULL)
+
