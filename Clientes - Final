@@ -1,6 +1,6 @@
 CREATE TABLE Clientes (ClienteID INT PRIMARY KEY NOT NULL, Nome VARCHAR(15) NOT NULL, Apelido VARCHAR(15) NOT NULL, DataNascimento DATE NOT NULL, Email VARCHAR(40) NOT NULL, Cidade CHAR(20) NOT NULL, Contacto INT NOT NULL)
 
-INSERT INTO Clientes VALUES 
+INSERT INTO Clientes VALUES (ClienteID, Nome, Apelido, DataNascimento, Email, Cidade, Contacto)
 
 ('20181082', 'Goncalo', 'Colaco', '1999-02-13', 'goncalo@gmail.com', 'Lisboa', 918721019),
 ('20241102', 'Ana', 'Silva', '1995-08-21', 'ana.silva@email.com', 'Porto', 911234567),
