@@ -1,4 +1,15 @@
-CREATE TABLE Productos (ProductoID VARCHAR(20) PRIMARY KEY NOT NULL, Nome VARCHAR(30) NOT NULL, Categoria VARCHAR(20) NOT NULL, Subcategoria VARCHAR(20) NOT NULL, Cor CHAR(15) NOT NULL, Custo INT NOT NULL, PrecoVenda INT NOT NULL, Fornecedor VARCHAR(30) NOT NULL) 
+CREATE TABLE Productos (
+    ProductoID VARCHAR(20) PRIMARY KEY NOT NULL,
+    Nome VARCHAR(30) NOT NULL,
+    Categoria VARCHAR(20) NOT NULL,
+    Subcategoria VARCHAR(20) NOT NULL,
+    Cor CHAR(15) NOT NULL,
+    Custo INT NOT NULL,
+    PrecoVenda INT NOT NULL,
+    Fornecedor VARCHAR(30) NOT NULL
+)
+
+
 
 #Ciclismo
 INSERT INTO Productos VALUES ('AB15002', 'Bicicleta MTX 150 Azul', 'Ciclismo', 'Bicicletas', 'Azul', 200, 550, 'PORTUCICL');
