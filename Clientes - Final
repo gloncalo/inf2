@@ -1,4 +1,13 @@
-CREATE TABLE Clientes (ClienteID INT PRIMARY KEY NOT NULL, Nome VARCHAR(15) NOT NULL, Apelido VARCHAR(15) NOT NULL, DataNascimento DATE NOT NULL, Email VARCHAR(40) NOT NULL, Cidade CHAR(20) NOT NULL, Contacto INT NOT NULL)
+#Clientes 
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY NOT NULL,
+    Nome VARCHAR(15) NOT NULL,
+    Apelido VARCHAR(15) NOT NULL,
+    DataNascimento DATE NOT NULL,
+    Email VARCHAR(40) NOT NULL,
+    Cidade CHAR(20) NOT NULL,
+    Contacto INT NOT NULL
+)
 
 INSERT INTO Clientes VALUES (ClienteID, Nome, Apelido, DataNascimento, Email, Cidade, Contacto)
 
