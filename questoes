@@ -1,2 +1,4 @@
 Superchave <- fazer uma tabela com order info (varias linhas de produtos) por order
 Perguntas sobre faturação, IVA, QUERRY(43), LEFTJOIN/RIGHTJOIN, 
+
+Adicionar mais vendedores e relaciona-los com as Orders.
