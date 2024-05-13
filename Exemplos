@@ -1,0 +1,6 @@
+
+#Qual foi o lucro liquido da empresa?
+
+SELECT SUM(Valor - Custo - Imposto) AS Lucro
+FROM Orders;
+
