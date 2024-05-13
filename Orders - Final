@@ -1,4 +1,6 @@
-INSERT INTO Orders VALUES
+INSERT INTO Orders VALUES (OrderID, ClienteID, Data, ProductoID, Valor, Custo, Portes, Imposto)
+
+
 ('PDD1234', '20181082', '2024-01-03', 'AB15002', 550, 200, 0, 126.5),
 ('PDD1235', '20241102', '2024-01-05', 'FB12003', 45, 20, 0, 10.35),
 ('PDD1236', '20241203', '2024-01-10', 'CP23009', 50, 25, 0, 11.5),
