@@ -1,4 +1,4 @@
-CREATE TABLE Funcionarios (IDFuncionario PRIMARY KEY NOT NULL,
+CREATE TABLE Funcionarios (IDFuncionario INT PRIMARY KEY NOT NULL,
                            Nome VARCHAR(20) NOT NULL,
                            Apelido VARCHAR(20) NOT NULL,
                            DataNascimento DATE NOT NULL,
